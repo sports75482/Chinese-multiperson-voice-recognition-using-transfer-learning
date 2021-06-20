@@ -60,7 +60,7 @@ divide the dataset into training, validation, and testing sets.
 13. visualiz the confusion matrix
 ![image](https://user-images.githubusercontent.com/58965086/122676069-d7fd2a00-d20e-11eb-8dcb-064f8406e9a4.png)
 
-
-
+14. sample Chinese multiperson voice spectrogram files are added
+15. sample VGG16 transfer learning code: vgg16.ipynb is added to the repository 
  
 
