@@ -1,5 +1,6 @@
 # Chinese-multiperson-voice-recognition-using-transfer-learning
-
+This is an example of applying transfer learning to the Chinese multi-person voice recognition application.  Transfer learning is an AI technique used to enhance the training accuracy of use cases when the dataset is small or the training accuracy is low given the high noise of the original dataset.  Multi-person voice recognition is known to contain high noise in the dataset.  Chinese voice voice recognition has gained much progress recently thanks to the effort by the big name company such as Google.  However many issues remain unsolved.  Multi-person Chinese voice recognition is one of them.  This example provieds not only multi-person Chinese voice sample dataset, but applied a transfer learning technique to the CNN trained model of the Chinese voice samples dataset.  Satisfactory results can be achieved through transfer learning after an initial CNN training.
+This example provides a feasibility evidence of the transfer learning techniques, and it is our wish to convert the transfer learning technique to a Kubeflow asset through this illustration case.  A transfer learning pipeline will be constructed to make kubeflow user easy to adapt to their model for training accuracy enhancement.  Eventually, other users can benefit from such convenient features of the kubeflow resources.
 usage briefing:
 1.Process audio files and convert them into spectrograms.
 2.Establish experimental data, divide them into 3 categories, and set them into CNN network training.
